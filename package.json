@@ -1,5 +1,5 @@
 {
-  "name": "react-native-template-typescript",
+  "name": "react-native-template-dino",
   "version": "0.0.1",
   "description": "Clean and minimalist React Native template for a quick start with TypeScript.",
   "scripts": {
@@ -11,19 +11,19 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/emin93/react-native-template-typescript.git"
+    "url": "git+https://github.com/danillo-ao/react-native-dino-template.git"
   },
   "keywords": [
     "react-native",
+    "dino",
     "typescript",
-    "jest",
     "template",
     "boilerplate"
   ],
-  "author": "Emin Khateeb <emin@emin.ch>",
+  "author": "Danillo Alves <danillo.alves.o@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/emin93/react-native-template-typescript/issues"
+    "url": "https://github.com/danillo-ao/react-native-dino-template/issues"
   },
-  "homepage": "https://github.com/emin93/react-native-template-typescript#readme"
+  "homepage": "https://github.com/danillo-ao/react-native-dino-template#readme"
 }
