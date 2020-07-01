@@ -9,16 +9,17 @@
     "declaration": true,                   /* Generates corresponding '.d.ts' file. */
     "noEmit": true,                           /* Do not emit outputs. */
     "isolatedModules": true,                  /* Transpile each file as a separate module (similar to 'ts.transpileModule'). */
-    "strict": true,                           /* Enable all strict type-checking options. */
+    "strict": false,                           /* Enable all strict type-checking options. */
     "moduleResolution": "node",               /* Specify module resolution strategy: 'node' (Node.js) or 'classic' (TypeScript pre-1.6). */
     "baseUrl": ".",                           /* Base directory to resolve non-absolute module names. */
     "allowSyntheticDefaultImports": true,     /* Allow default imports from modules with no default export. This does not affect code emit, just typechecking. */
     "esModuleInterop": true,                  /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */
     "paths": {
-      "@theme/*": ["src/theme/*"],
+      "@assets/*": ["src/assets/*"],
+      "@components/*": ["src/components/*"],
       "@router/*": ["src/router/*"],
-      "@configs/*": ["src/configs/*"],
-      "@screens/*": ["src/screens/*"]
+      "@screens/*": ["src/screens/*"],
+      "@theme/*": ["src/theme/*"]
     }
   },
   "exclude": [

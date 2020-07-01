@@ -1,5 +1,6 @@
 import * as React from 'react';
 import {HomeDescription, HomeTitle, ImageLogo, PageWrapper} from './home.styles';
+import Icon from '@components/icons/icon.comp';
 
 const HomeScreen: React.FC<any> = (): React.FunctionComponentElement<any> => {
 

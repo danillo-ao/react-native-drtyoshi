@@ -1,4 +1,4 @@
-#Wed Jul 01 00:28:16 BRT 2020
+#Wed Jul 01 01:20:35 BRT 2020
 base.0=/home/danillo/development/react-native-dino-template/template/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

@@ -7,10 +7,11 @@ module.exports = {
         cwd: 'babelrc',
         extensions: ['.ts', '.tsx', '.js', '.ios.js', '.android.js'],
         alias: {
-          '@theme': './src/theme',
+          '@assets': './src/assets',
+          '@components': './src/components',
           '@router': './src/router',
-          '@configs': './src/configs',
-          '@screens': './src/screens'
+          '@screens': './src/screens',
+          '@theme': './src/theme',
         }
       }
     ],
