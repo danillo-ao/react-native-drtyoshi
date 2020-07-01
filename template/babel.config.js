@@ -9,7 +9,8 @@ module.exports = {
         alias: {
           '@theme': './src/theme',
           '@router': './src/router',
-          '@configs': './src/configs'
+          '@configs': './src/configs',
+          '@screens': './src/screens'
         }
       }
     ],

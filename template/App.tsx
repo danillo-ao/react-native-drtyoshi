@@ -14,54 +14,20 @@
  *
  * @format
  */
-
 import * as React from 'react';
 import styled, { ThemeProvider } from 'styled-components/native';
 
 import { StatusBar } from 'react-native';
-import theme from '@theme/theme.config';
+import theme from '@theme/theme';
+import Router from '@router/router.comp';
 
 const App = () => {
   return (
     <ThemeProvider theme={theme}>
-      <>
-        <StatusBar barStyle="dark-content" />
-        <SafeView>
-          <PageWrapper>
-
-            <ImageLogo source={{ uri: 'https://iili.io/JmYBfV.png' }} />
-
-          </PageWrapper>
-        </SafeView>
-      </>
+      <StatusBar barStyle="dark-content" />
+      <Router />
     </ThemeProvider>
   );
 };
 
 export default App;
-
-
-const SafeView = styled.SafeAreaView`
-  flex: 1;
-`;
-
-const PageWrapper = styled.View`
-  width: 100%;
-  flex: 1;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  padding: 16px;
-  align-items: center;
-  justify-content: center;
-  background-color: #eee;
-`;
-const ImageLogo = styled.Image.attrs((props) => ({
-  resizeMode: 'contain',
-  ...props
-}))`
-  width: 160px;
-  height: 160px;
-  position: relative;
-  margin: 16px 0;
-`;
