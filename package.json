@@ -1,5 +1,5 @@
 {
-  "name": "react-native-template-dino",
+  "name": "react-native-template-drtyoshi",
   "version": "0.0.1",
   "description": "Clean and minimalist React Native template for a quick start with TypeScript.",
   "scripts": {
@@ -23,7 +23,7 @@
   "author": "Danillo Alves <danillo.alves.o@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/danillo-ao/react-native-dino-template/issues"
+    "url": "https://github.com/danillo-ao/react-native-drtyoshi/issues"
   },
-  "homepage": "https://github.com/danillo-ao/react-native-dino-template#readme"
+  "homepage": "https://github.com/danillo-ao/react-native-drtyoshi#readme"
 }
